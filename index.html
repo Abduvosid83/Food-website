@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+        body {
+            background-image: url('img.jpg');
+            position: relative;
+        }
+
+        .box {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 40px;
+        }
+
+        .card-image img {
+            width: 300px;
+            height: 300px;
+
+        }
+
+        .card-image {
+            text-align: center;
+        }
+
+        .cols {
+            height: 600px;
+            padding: 10px;
+        }
+
+        .text {
+            color: black;
+            padding: 25px;
+            font-size: 24px;
+            font-family: sans-serif;
+        }
+
+        .searchBox {
+            height: 80px;
+            margin: 0 auto;
+            width: 300px;
+            position: absolute;
+            z-index: 50;
+            top: 0px;
+            right: 50px;
+            display: flex;
+            gap: 0;
+        }
+
+        .search {
+            color: white;
+            width: 300px;
+        }
+
+        .searchbtn {
+            height: 30px;
+            width: 30px;
+            margin-top: 15px;
+            border-radius: 15px;
+            
+        }
+
+        .grey-text {
+            position: absolute;
+            z-index: 50;
+            right: 250px;
+            bottom: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <nav>
+        <div class="nav-wrapper">
+
+            <div class="input-field">
+                <a href="#" class="brand-logo">Logo</a>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="searchBox" >
+        <input type="text" placeholder="Search meal..." required class="search">
+        <button class="searchbtn"><img src="download.png" style="width: 25px; height: 26px; border-radius: 20px; position: absolute; right: 2px; top: 17px;"></button>
+        
+    </div>
+
+    <div class="box"></div>
+
+    <footer class="page-footer">
+        <div class="footer-copyright">
+            <div class="container">
+                <p class="footer"></p>
+                <a class="grey-text text-lighten-4 right" href="https://t.me/abdullohh_0" target="_blank">Muallif:Abduvosid</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="script.js"></script>
+
+</html>
